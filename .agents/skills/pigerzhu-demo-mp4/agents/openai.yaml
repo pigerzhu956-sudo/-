@@ -1,0 +1,3 @@
+interface:
+  display_name: "pigerzhu 演示 MP4 动画生成"
+  short_description: "从确认分镜说明生成分层口播动画，支持源时间区间、中途状态继承和 MP4 核验"

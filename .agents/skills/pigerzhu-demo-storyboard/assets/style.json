@@ -1,0 +1,10 @@
+{
+  "canvas": {"width": 1920, "height": 1080, "safeX": 96, "safeY": 72},
+  "background": {"file": "newsprint-blue-gray.png", "x": 0, "y": 0, "width": 1920, "height": 1080, "immutableAcrossPages": true},
+  "colors": {"paper": "#C9DCE5", "ink": "#17191B", "secondary": "#555A5E", "red": "#9E2730", "highlight": "#E6F01F", "card": "#ECEDE8"},
+  "fonts": {"title": ["Songti SC", "Source Han Serif SC", "Noto Serif SC"], "body": ["PingFang SC", "Source Han Sans SC", "Noto Sans SC"], "latinAndLargeNumbers": ["Georgia"]},
+  "sizes": {"title": 72, "bodyMin": 34, "bodyMax": 42, "auxiliaryMin": 27, "auxiliaryMax": 30},
+  "chart": {"mainStrokeMin": 4, "mainStrokeMax": 6, "plotBackground": "transparent"},
+  "highlight": {"opacity": 0.84, "separateBrushLayer": true},
+  "defaultsOverriddenByExplicitProjectRequirements": true
+}

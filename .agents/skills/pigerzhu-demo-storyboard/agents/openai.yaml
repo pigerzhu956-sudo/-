@@ -1,0 +1,3 @@
+interface:
+  display_name: "pigerzhu 演示分镜图生成"
+  short_description: "从音频与字幕生成完整分镜脚本，确认后交付新闻纸风格图片与可编辑源"

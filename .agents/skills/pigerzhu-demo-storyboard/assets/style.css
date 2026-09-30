@@ -1,0 +1,18 @@
+:root {
+  --paper: #C9DCE5; --ink: #17191B; --secondary: #555A5E;
+  --red: #9E2730; --highlight: #E6F01F;
+  --title-font: 'Songti SC', 'Source Han Serif SC', 'Noto Serif SC', serif;
+  --body-font: 'PingFang SC', 'Source Han Sans SC', 'Noto Sans SC', sans-serif;
+  --numeric-font: Georgia, serif;
+}
+.pigerzhu-page { position: relative; width: 1920px; height: 1080px; overflow: hidden; color: var(--ink); font-family: var(--body-font); font-size: 38px; }
+.pigerzhu-background { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; opacity: 1; filter: none; }
+.pigerzhu-title { font-family: var(--title-font); font-weight: 900; font-size: 72px; }
+.pigerzhu-number, .pigerzhu-latin { font-family: var(--numeric-font); }
+.pigerzhu-aux { font-size: 28px; color: var(--secondary); }
+.pigerzhu-red { color: var(--red); fill: var(--red); }
+/* Apply to a separate irregular SVG brush path behind black text. */
+.pigerzhu-highlight-brush { fill: var(--highlight); opacity: .84; }
+.pigerzhu-chart { background: transparent; }
+.pigerzhu-main-curve { fill: none; stroke: var(--red); stroke-width: 5; }
+/* Layout and semantic groups are authored per meaning, not template slots. */
